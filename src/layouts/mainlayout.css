@@ -1,0 +1,49 @@
+/* Layout tổng */
+.layout {
+  display: flex;
+  min-height: calc(100vh - 60px); /* trừ header */
+  background: #f2f3f5;
+}
+
+/* Sidebar */
+.layout .sidebar {
+  width: 220px;
+  background: #ffffff;
+  padding: 20px;
+  border-right: 1px solid #e0e0e0;
+}
+
+/* Menu theo chiều dọc */
+.layout .sidebar nav {
+  display: flex;
+  flex-direction: column;
+  gap: 8px;
+}
+
+/* Link menu */
+.layout .sidebar .menu-item {
+  text-decoration: none;     /* ❌ bỏ gạch chân */
+  color: #333;
+  padding: 10px 12px;
+  border-radius: 6px;
+  font-weight: 500;
+  transition: all 0.2s ease;
+}
+
+/* Hover */
+.layout .sidebar .menu-item:hover {
+  background: #f0f0f0;
+}
+
+/* Active */
+.layout .sidebar .menu-item.active {
+  background: #1976d2;
+  color: white;
+}
+
+/* Content */
+.layout .content {
+  flex: 1;
+  padding: 20px;
+  overflow: auto;
+}
