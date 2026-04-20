@@ -26,16 +26,8 @@ Filter theo ngày
 Paginatio
 
 Tech Stack
-
-Frontend
-
+Frontend:
 React 18, Vite
-
 Ant Design
-
-
 React Router v6
-
-Redux Toolkit
-
 Axios (Interceptor)
