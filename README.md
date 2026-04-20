@@ -9,6 +9,7 @@ Xác thực người dùng (JWT + refresh token)
 Quên mật khẩu bằng OTP
 
 Tính năng chính:
+
 Authentication
 Đăng nhập / Đăng xuất
 JWT + Refresh Token (auto refresh)
@@ -26,7 +27,9 @@ Filter theo ngày
 Paginatio
 
 Tech Stack
+
 Frontend:
+
 React 18, Vite
 Ant Design
 React Router v6
