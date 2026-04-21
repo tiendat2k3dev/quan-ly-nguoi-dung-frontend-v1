@@ -40,7 +40,6 @@ User Management System - A frontend application for managing user accounts, depa
 - Ant Design / Bootstrap
 - JWT Authentication
 
-<<<<<<< HEAD
 ### Thư viện chính
 - **Quản lý state**: React Context API.
 - **UI**: Ant Design.
@@ -48,7 +47,7 @@ User Management System - A frontend application for managing user accounts, depa
 - **Gọi API**: Axios.
 - **Thông báo:** React Toastify.
 - **Icons**: FontAwesome, React Icons.
-=======
+  
 ### Core Libraries
 - **State Management**: React Context API
 - **UI Components**: Ant Design, Bootstrap 5
