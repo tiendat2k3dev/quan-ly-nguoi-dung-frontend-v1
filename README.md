@@ -2,40 +2,45 @@
 
 [![Demo](https://img.shields.io/badge/-Live%20Demo-brightgreen)](https://quan-ly-nguoi-dung-frontend-v1.vercel.app/)
 
-## 📱 Overview
-Hệ thống quản lý người dùng (User Management System) - Frontend application cho việc quản lý tài khoản người dùng, phòng ban, xác thực và cập nhật thông tin.
-
-## 🖼️ Screenshots
+## Overview
+User Management System - A frontend application for managing user accounts, departments, authentication, and updating user information
+## Demo
+- **Frontend**: [Live Demo](https://quan-ly-nguoi-dung-frontend-v1.vercel.app)
+- **Backend**: http://localhost:8080/api (local development)
+## Screenshots
 ### Login & Authentication
 
 ![Login](src/assets/images/login.png)
-
+### Forgot Password  
 ![Forgot Password](src/assets/images/quenmatkhau.png)
-
+### Verification & Password Reset
 ![Verification](src/assets/images/xacthucvadoimatkhau.png)
 
 ### Dashboard & Management
 
 ![Home](src/assets/images/home.png)
-
+### Account Management
 ![Account Management](src/assets/images/account.png)
-
+### Department Management
 ![Department Management](src/assets/images/department.png)
 
 ### Modals & Features
-
+**Update Profile Modal**  
 ![Update Profile](src/assets/images/capnhatthongtin.png)
+ **Change Password Modal**  
 
 ![Change Password](src/assets/images/capnhatmatkhau.png)
-
+**404 Not Found Page** 
 ![404 Page](src/assets/images/404.png)
 
-## 🛠️ Tech Stack
-![React](https://img.shields.io/badge/React-18.3.1-blue?style=flat&logo=react)
-![Vite](https://img.shields.io/badge/Vite-7.2.4-orange?style=flat&logo=vite)
-![Ant Design](https://img.shields.io/badge/Ant%20Design-6.2.1-yellow?style=flat&logo=antdesign)
-![React Router](https://img.shields.io/badge/React%20Router-6.30.3-red?style=flat&logo=reactrouter)
+## Tech Stack
+- ReactJS (Hooks, Context API)
+- React Router
+- Axios
+- Ant Design / Bootstrap
+- JWT Authentication
 
+<<<<<<< HEAD
 ### Thư viện chính
 - **Quản lý state**: React Context API.
 - **UI**: Ant Design.
@@ -43,19 +48,43 @@ Hệ thống quản lý người dùng (User Management System) - Frontend appli
 - **Gọi API**: Axios.
 - **Thông báo:** React Toastify.
 - **Icons**: FontAwesome, React Icons.
+=======
+### Core Libraries
+- **State Management**: React Context API
+- **UI Components**: Ant Design, Bootstrap 5
+- **Routing**: React Router DOM
+- **API Client**: Axios
+- **Notifications**: React Toastify
+- **Icons**: FontAwesome, React Icons
+- **Build Tool**: Vite
 
-## Tính năng
-- Quản lý tài khoản người dùng (CRUD, phân trang, lọc theo role/phòng ban).
-- Quản lý phòng ban (CRUD).
-- Xác thực (Đăng nhập, quên mật khẩu, xác minh).
-- Cập nhật thông tin cá nhân & đổi mật khẩu.
-- Protected routes (chặn truy cập khi chưa đăng nhập).
-- Tự động refresh token (duy trì phiên đăng nhập).
+## Key Features
+- Authentication & Authorization (JWT)
+- Protected Routes (secure pages requiring login)
+- Dynamic data rendering from REST API
+- Reusable components (Table, Modal, Form)
+- Pagination & Filtering
+- User management (CRUD, pagination, filter by role/department)
+- Department management (CRUD)
+- Automatic token refresh (maintains user session)
 
-## Vai trò của tôi
-- Xây dựng giao diện responsive bằng React & Ant Design.
-- Xây dựng hệ thống authentication bằng Context API.
-- Implement auto refresh token (silent refresh).
-- Tích hợp REST API bằng Axios cho user/department.
+## My Contributions
+- Built a reusable UI layout (Header, Sidebar).
+- Implemented authentication system using Context API.
+- Integrated RESTful APIs using Axios.
+- Managed routing and protected routes (Protected Routes).
+- Implemented automatic token refresh (silent refresh) to maintain user session.
+## Quick Setup
+1. Clone repo and `cd` into project
+2. `npm install`
+3. `npm run dev` (runs on http://localhost:5173)
+4. Backend required at http://localhost:8080/api
+>>>>>>> b30fab47f1c04999ba8301a1a5ee74446afe289d
+
+
 - Thiết kế modal cho các chức năng thêm/sửa/xoá/reset.
+<<<<<<< HEAD
 - Triển khai dự án lên Vercel (CI/CD).
+=======
+- Triển khai dự án lên Vercel (CI/CD)
+>>>>>>> b30fab47f1c04999ba8301a1a5ee74446afe289d
