@@ -50,17 +50,20 @@ User Management System - A frontend application for managing user accounts, depa
 - **Build Tool**: Vite
 
 ## Key Features
-- Quản lý tài khoản người dùng (CRUD, phân trang, lọc theo role/phòng ban).
-- Quản lý phòng ban (CRUD).
-- Xác thực (Đăng nhập, quên mật khẩu, xác minh).
-- Cập nhật thông tin cá nhân & đổi mật khẩu.
-- Protected routes (chặn truy cập khi chưa đăng nhập).
-- Tự động refresh token (duy trì phiên đăng nhập).
+Authentication & Authorization (JWT)
+Protected Routes (secure pages requiring login)
+Dynamic data rendering from REST API
+Reusable components (Table, Modal, Form)
+Pagination & Filtering
+User management (CRUD, pagination, filter by role/department)
+Department management (CRUD)
+Automatic token refresh (maintains user session)
 
 ## Vai trò của tôi
-- Xây dựng giao diện responsive bằng React & Ant Design.
-- Xây dựng hệ thống authentication bằng Context API.
-- Implement auto refresh token (silent refresh).
-- Tích hợp REST API bằng Axios cho user/department.
+- Built a reusable UI layout (Header, Sidebar).
+- Implemented authentication system using Context API.
+- Integrated RESTful APIs using Axios.
+- Managed routing and protected routes (Protected Routes).
+- Implemented automatic token refresh (silent refresh) to maintain user session..
 - Thiết kế modal cho các chức năng thêm/sửa/xoá/reset.
 - Triển khai dự án lên Vercel (CI/CD)
