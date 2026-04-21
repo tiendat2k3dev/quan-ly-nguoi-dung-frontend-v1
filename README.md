@@ -59,7 +59,7 @@ User Management System - A frontend application for managing user accounts, depa
 - Department management (CRUD)
 - Automatic token refresh (maintains user session)
 
-## Vai trò của tôi
+## My Contributions
 - Built a reusable UI layout (Header, Sidebar).
 - Implemented authentication system using Context API.
 - Integrated RESTful APIs using Axios.
