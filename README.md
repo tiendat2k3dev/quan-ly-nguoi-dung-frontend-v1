@@ -34,11 +34,11 @@ User Management System - A frontend application for managing user accounts, depa
 ![404 Page](src/assets/images/404.png)
 
 ## Tech Stack
-ReactJS (Hooks, Context API)
-React Router
-Axios
-Ant Design / Bootstrap
-JWT Authentication
+- ReactJS (Hooks, Context API)
+- React Router
+- Axios
+- Ant Design / Bootstrap
+- JWT Authentication
 
 ### Core Libraries
 - **State Management**: React Context API
