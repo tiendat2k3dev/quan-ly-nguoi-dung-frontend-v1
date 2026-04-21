@@ -79,6 +79,4 @@ User Management System - A frontend application for managing user accounts, depa
 2. `npm install`
 3. `npm run dev` (runs on http://localhost:5173)
 4. Backend required at http://localhost:8080/api
-=======
-- Triển khai dự án lên Vercel (CI/CD)
->>>>>>> b30fab47f1c04999ba8301a1a5ee74446afe289d
+
