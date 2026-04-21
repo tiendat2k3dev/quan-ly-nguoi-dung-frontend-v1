@@ -17,9 +17,9 @@ Hệ thống quản lý người dùng (User Management System) - Frontend appli
 ### Dashboard & Management
 
 ![Home](src/assets/images/home.png)
-
+### Account Management
 ![Account Management](src/assets/images/account.png)
-
+### Department Management
 ![Department Management](src/assets/images/department.png)
 
 ### Modals & Features
