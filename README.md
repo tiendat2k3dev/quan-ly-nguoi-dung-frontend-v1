@@ -37,12 +37,12 @@ Hệ thống quản lý người dùng (User Management System) - Frontend appli
 ![Redux Toolkit](https://img.shields.io/badge/Redux%20Toolkit-2.11.2-purple?style=flat&logo=redux)
 ![React Router](https://img.shields.io/badge/React%20Router-6.30.3-red?style=flat&logo=reactrouter)
 
-### Key Libraries
-- **State Management**: Redux Toolkit + React-Redux
+### Thư viện chính
+- **Quản lý state**: React Context API
 - **UI**: Ant Design
 - **Routing**: React Router DOM
-- **HTTP**: Axios
-- **Notifications**: React Toastify
+- **Gọi API**: Axios
+- **Thông báo:**: React Toastify
 - **Icons**: FontAwesome, React Icons
 
 ## ✨ Features
@@ -61,33 +61,7 @@ Hệ thống quản lý người dùng (User Management System) - Frontend appli
 - Designed modals for add/edit/delete/reset operations.
 - Deployed to Vercel with CI/CD.
 
-## 🚀 Quick Start
-### Prerequisites
-- Node.js 18+
 
-### Installation
-```bash
-npm install
-npm run dev
-```
-
-### Build & Deploy
-```bash
-npm run build
-```
-
-## 📂 Project Structure
-```
-src/
-├── components/     # Reusable UI components (Tables, Modals, Filters)
-├── pages/          # Page components (Home, Account, Department, Login)
-├── services/       # API services (auth, account, department)
-├── contexts/       # Auth context & Protected routes
-└── hooks/          # Custom hooks (useAuth)
-```
-
-## 📄 License
-This project is open source. See [LICENSE](LICENSE) for details.
 
 ⭐ Star this repo if you found it useful!
 
