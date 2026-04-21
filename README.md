@@ -40,14 +40,7 @@ User Management System - A frontend application for managing user accounts, depa
 - Ant Design / Bootstrap
 - JWT Authentication
   
-### Core Libraries
-- **State Management**: React Context API
-- **UI Components**: Ant Design, Bootstrap 5
-- **Routing**: React Router DOM
-- **API Client**: Axios
-- **Notifications**: React Toastify
-- **Icons**: FontAwesome, React Icons
-- **Build Tool**: Vite
+
 
 ## Key Features
 - Authentication & Authorization (JWT)
