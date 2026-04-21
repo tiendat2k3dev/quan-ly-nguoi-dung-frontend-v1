@@ -41,7 +41,7 @@ Hệ thống quản lý người dùng (User Management System) - Frontend appli
 - **UI**: Ant Design.
 - **Routing**: React Router DOM.
 - **Gọi API**: Axios.
-- **Thông báo:**: React Toastify.
+- **Thông báo:** React Toastify.
 - **Icons**: FontAwesome, React Icons.
 
 ## Tính năng
@@ -58,7 +58,4 @@ Hệ thống quản lý người dùng (User Management System) - Frontend appli
 - Implement auto refresh token (silent refresh).
 - Tích hợp REST API bằng Axios cho user/department.
 - Thiết kế modal cho các chức năng thêm/sửa/xoá/reset.
-- Triển khai dự án lên Vercel (CI/CD)
-
-⭐ Star this repo if you found it useful!
-
+- Triển khai dự án lên Vercel (CI/CD).
