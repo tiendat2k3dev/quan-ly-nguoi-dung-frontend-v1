@@ -23,11 +23,12 @@ Hệ thống quản lý người dùng (User Management System) - Frontend appli
 ![Department Management](src/assets/images/department.png)
 
 ### Modals & Features
-
+**Update Profile Modal**  
 ![Update Profile](src/assets/images/capnhatthongtin.png)
+ **Change Password Modal**  
 
 ![Change Password](src/assets/images/capnhatmatkhau.png)
-
+**404 Not Found Page** 
 ![404 Page](src/assets/images/404.png)
 
 ## 🛠️ Tech Stack
