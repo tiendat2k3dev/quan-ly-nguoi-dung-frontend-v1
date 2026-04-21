@@ -49,7 +49,7 @@ User Management System - A frontend application for managing user accounts, depa
 - **Icons**: FontAwesome, React Icons
 - **Build Tool**: Vite
 
-## Tính năng
+## Key Features
 - Quản lý tài khoản người dùng (CRUD, phân trang, lọc theo role/phòng ban).
 - Quản lý phòng ban (CRUD).
 - Xác thực (Đăng nhập, quên mật khẩu, xác minh).
