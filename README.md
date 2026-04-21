@@ -33,19 +33,21 @@ User Management System - A frontend application for managing user accounts, depa
 **404 Not Found Page** 
 ![404 Page](src/assets/images/404.png)
 
-## 🛠️ Tech Stack
-![React](https://img.shields.io/badge/React-18.3.1-blue?style=flat&logo=react)
-![Vite](https://img.shields.io/badge/Vite-7.2.4-orange?style=flat&logo=vite)
-![Ant Design](https://img.shields.io/badge/Ant%20Design-6.2.1-yellow?style=flat&logo=antdesign)
-![React Router](https://img.shields.io/badge/React%20Router-6.30.3-red?style=flat&logo=reactrouter)
+## Tech Stack
+ReactJS (Hooks, Context API)
+React Router
+Axios
+Ant Design / Bootstrap
+JWT Authentication
 
-### Thư viện chính
-- **Quản lý state**: React Context API.
-- **UI**: Ant Design.
-- **Routing**: React Router DOM.
-- **Gọi API**: Axios.
-- **Thông báo:**: React Toastify.
-- **Icons**: FontAwesome, React Icons.
+### Core Libraries
+- **State Management**: React Context API
+- **UI Components**: Ant Design, Bootstrap 5
+- **Routing**: React Router DOM
+- **API Client**: Axios
+- **Notifications**: React Toastify
+- **Icons**: FontAwesome, React Icons
+- **Build Tool**: Vite
 
 ## Tính năng
 - Quản lý tài khoản người dùng (CRUD, phân trang, lọc theo role/phòng ban).
