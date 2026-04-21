@@ -50,14 +50,14 @@ User Management System - A frontend application for managing user accounts, depa
 - **Build Tool**: Vite
 
 ## Key Features
-Authentication & Authorization (JWT)
-Protected Routes (secure pages requiring login)
-Dynamic data rendering from REST API
-Reusable components (Table, Modal, Form)
-Pagination & Filtering
-User management (CRUD, pagination, filter by role/department)
-Department management (CRUD)
-Automatic token refresh (maintains user session)
+- Authentication & Authorization (JWT)
+- Protected Routes (secure pages requiring login)
+- Dynamic data rendering from REST API
+- Reusable components (Table, Modal, Form)
+- Pagination & Filtering
+- User management (CRUD, pagination, filter by role/department)
+- Department management (CRUD)
+- Automatic token refresh (maintains user session)
 
 ## Vai trò của tôi
 - Built a reusable UI layout (Header, Sidebar).
