@@ -4,7 +4,9 @@
 
 ## Overview
 User Management System - A frontend application for managing user accounts, departments, authentication, and updating user information
-
+## Demo
+- **Frontend**: [Live Demo](https://quan-ly-nguoi-dung-frontend-v1.vercel.app)
+- **Backend**: http://localhost:8080/api (local development)
 ## Screenshots
 ### Login & Authentication
 
