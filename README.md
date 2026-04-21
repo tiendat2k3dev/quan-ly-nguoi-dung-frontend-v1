@@ -59,6 +59,3 @@ Hệ thống quản lý người dùng (User Management System) - Frontend appli
 - Tích hợp REST API bằng Axios cho user/department.
 - Thiết kế modal cho các chức năng thêm/sửa/xoá/reset.
 - Triển khai dự án lên Vercel (CI/CD)
-
-⭐ Star this repo if you found it useful!
-
