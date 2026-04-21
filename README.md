@@ -3,7 +3,7 @@
 [![Demo](https://img.shields.io/badge/-Live%20Demo-brightgreen)](https://quan-ly-nguoi-dung-frontend-v1.vercel.app/)
 
 ## Overview
-Hệ thống quản lý người dùng (User Management System) - Frontend application cho việc quản lý tài khoản người dùng, phòng ban, xác thực và cập nhật thông tin.
+User Management System - A frontend application for managing user accounts, departments, authentication, and updating user information
 
 ## Screenshots
 ### Login & Authentication
