@@ -64,6 +64,13 @@ User Management System - A frontend application for managing user accounts, depa
 - Implemented authentication system using Context API.
 - Integrated RESTful APIs using Axios.
 - Managed routing and protected routes (Protected Routes).
-- Implemented automatic token refresh (silent refresh) to maintain user session..
+- Implemented automatic token refresh (silent refresh) to maintain user session.
+## Quick Setup
+1. Clone repo and `cd` into project
+2. `npm install`
+3. `npm run dev` (runs on http://localhost:5173)
+4. Backend required at http://localhost:8080/api
+
+
 - Thiết kế modal cho các chức năng thêm/sửa/xoá/reset.
 - Triển khai dự án lên Vercel (CI/CD)
