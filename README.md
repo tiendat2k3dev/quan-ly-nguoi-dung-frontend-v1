@@ -3,7 +3,7 @@
 [![Demo](https://img.shields.io/badge/-Live%20Demo-brightgreen)](https://quan-ly-nguoi-dung-frontend-v1.vercel.app/)
 
 ## Overview
-User Management System - A frontend application for managing user accounts, departments, authentication, and updating user information
+A React-based web application supporting Admin, Manager, and Employee roles to manage users and departments.
 ## Demo
 - **Frontend**: [Live Demo](https://quan-ly-nguoi-dung-frontend-v1.vercel.app)
 - **Backend**: http://localhost:8080/api (local development)
