@@ -1,6 +1,6 @@
 # User Management System (Frontend)
 
-[![Demo](https://img.shields.io/badge/-Live%20Demo-brightgreen)](https://quan-ly-nguoi-dung-frontend-v1.vercel.app/)
+[![Demo] :https://quan-ly-nguoi-dung-frontend-v1.vercel.app/
 
 ## Overview
 A React-based web application supporting Admin, Manager, and Employee roles to manage users and departments.
