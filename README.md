@@ -1,7 +1,5 @@
 # User Management System (Frontend)
 
-[![Demo] 
-
 ## Overview
 A React-based web application supporting Admin, Manager, and Employee roles to manage users and departments.
 ## Demo
