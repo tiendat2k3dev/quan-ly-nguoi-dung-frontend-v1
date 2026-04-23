@@ -1,11 +1,11 @@
 # User Management System (Frontend)
 
-[![Demo] :https://quan-ly-nguoi-dung-frontend-v1.vercel.app/
+[![Demo] 
 
 ## Overview
 A React-based web application supporting Admin, Manager, and Employee roles to manage users and departments.
 ## Demo
-- **Frontend**: [Live Demo](https://quan-ly-nguoi-dung-frontend-v1.vercel.app)
+- **Frontend**: https://quan-ly-nguoi-dung-frontend-v1.vercel.app
 - **Backend**: http://localhost:8080/api (local development)
 ## Screenshots
 ### Login & Authentication
