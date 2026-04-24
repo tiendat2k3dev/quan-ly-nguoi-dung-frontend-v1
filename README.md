@@ -78,11 +78,17 @@ npm run build
 ## Project Structure
 
 quan-ly-nguoi-dung-frontend-v1/
+
 ├── .env                     # Environment variables
+
 ├── package.json
+
 ├── README.md
+
 ├── public/
+
 └── src/
+    
     ├── assets/             # Images, icons, static files
     ├── components/         # Reusable UI components
     ├── pages/              # Main application pages
