@@ -1,8 +1,7 @@
 # User Management System (Frontend)
 
 ## Overview
-A production-style React web application for managing users and departments with a role-based system (Admin, Manager, Employee).
-
+A React-based web application supporting Admin, Teacher, and Student roles to manage exams, classes, and results
 ### Demo
 - **Frontend**: https://quan-ly-nguoi-dung-frontend-v1.vercel.app
 - **Backend (local)**: http://localhost:8080/api
