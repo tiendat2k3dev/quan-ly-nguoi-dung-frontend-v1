@@ -55,6 +55,7 @@ A production-style React web application for managing users and departments with
 
 ## Quick Setup
 
+```bash
 # Clone repository
 git clone https://github.com/tiendat2k3dev/quan-ly-nguoi-dung-frontend-v1.git
 
@@ -66,19 +67,25 @@ npm install
 
 # Start development server
 npm run dev
+```
 
 ### Environment Variables
 
 Create a `.env` file in the project root:
+
+```env
 VITE_API_BASE_URL=http://localhost:8080/api
+```
+
 ### Build for Production
 
-npm run build
-
-## Project Structure
-## Project Structure
-
 ```bash
+npm run build
+```
+
+## Project Structure
+
+```text
 quan-ly-nguoi-dung-frontend-v1/
 ├── .env                     # Environment variables
 ├── package.json
@@ -88,9 +95,9 @@ quan-ly-nguoi-dung-frontend-v1/
     ├── assets/             # Images, icons, static files
     ├── components/         # Reusable UI components
     ├── pages/              # Main application pages
-    ├── services/           # API calls
-    ├── hooks/              # Custom hooks
-    ├── contexts/           # AuthContext
+    ├── services/           # API calls (auth, account, department)
+    ├── hooks/              # Custom hooks (useAuth)
+    ├── contexts/           # Global state / AuthContext
     ├── utils/              # Helper functions
     ├── layouts/            # Header / Sidebar layouts
     ├── App.jsx
