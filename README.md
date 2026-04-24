@@ -1,34 +1,33 @@
 # User Management System (Frontend)
 
 ## Overview
-A React-based web application supporting Admin, Manager, and Employee roles to manage users and departments.
-## Demo
+A production-style React web application for managing users and departments with a role-based system (Admin, Manager, Employee).
+
+### Demo
 - **Frontend**: https://quan-ly-nguoi-dung-frontend-v1.vercel.app
-- **Backend**: http://localhost:8080/api (local development)
+- **Backend (local)**: http://localhost:8080/api
+
+### Technical Highlights
+- **Multi-role RBAC** with role-based permissions and page access.
+- **AuthContext architecture** for centralized authentication state and token management.
+- **Protected Routes** for secure route-level authorization.
+- **Silent token refresh** to maintain stable user sessions.
+- **Reusable UI and API patterns** for scalable CRUD workflows.
+
 ## Screenshots
 ### Login & Authentication
-
 ![Login](src/assets/images/login.png)
-### Forgot Password  
 ![Forgot Password](src/assets/images/quenmatkhau.png)
-### Verification & Password Reset
 ![Verification](src/assets/images/xacthucvadoimatkhau.png)
 
-### Dashboard & Management
-
+### Dashboard & Core Management
 ![Home](src/assets/images/home.png)
-### Account Management
 ![Account Management](src/assets/images/account.png)
-### Department Management
 ![Department Management](src/assets/images/department.png)
 
-### Modals & Features
-**Update Profile Modal**  
+### UX Details & Edge Cases
 ![Update Profile](src/assets/images/capnhatthongtin.png)
- **Change Password Modal**  
-
 ![Change Password](src/assets/images/capnhatmatkhau.png)
-**404 Not Found Page** 
 ![404 Page](src/assets/images/404.png)
 
 ## Tech Stack
@@ -37,28 +36,48 @@ A React-based web application supporting Admin, Manager, and Employee roles to m
 - Axios
 - Ant Design / Bootstrap
 - JWT Authentication
-  
-
 
 ## Key Features
 - Authentication & Authorization (JWT)
-- Protected Routes (secure pages requiring login)
-- Dynamic data rendering from REST API
-- Reusable components (Table, Modal, Form)
-- Pagination & Filtering
-- User management (CRUD, pagination, filter by role/department)
-- Department management (CRUD)
-- Automatic token refresh (maintains user session)
+- Protected Routes for private pages
+- User Management CRUD (with pagination and filtering by role/department)
+- Department Management CRUD
+- Dynamic rendering from REST API
+- Reusable component system
+- Silent token refresh for session continuity
 
 ## My Contributions
-- Built a reusable UI layout (Header, Sidebar).
-- Implemented authentication system using Context API.
+- Designed and implemented reusable layout system (Header, Sidebar).
+- Built authentication architecture with Context API (`AuthContext`).
+- Implemented role-based route protection.
 - Integrated RESTful APIs using Axios.
-- Managed routing and protected routes (Protected Routes).
-- Implemented automatic token refresh (silent refresh) to maintain user session.
+- Developed session persistence via automatic token refresh.
+
 ## Quick Setup
-1. Clone repo and `cd` into project
-2. `npm install`
-3. `npm run dev` (runs on http://localhost:5173)
-4. Backend required at http://localhost:8080/api
+1. Clone repository and move into project folder.
+2. Run `npm install`.
+3. Run `npm run dev` (default: http://localhost:5173).
+4. Start backend service at `http://localhost:8080/api`.
+
+## Structure Code
+```text
+src/
+  assets/
+    images/
+  components/
+    common/
+    layout/
+  context/
+    AuthContext.jsx
+  pages/
+    auth/
+    dashboard/
+    account/
+    department/
+  routes/
+    ProtectedRoute.jsx
+  services/
+    api/
+  utils/
+```
 
