@@ -54,17 +54,47 @@ A production-style React web application for managing users and departments with
 - Developed session persistence via automatic token refresh.
 
 ## Quick Setup
-1. Clone repository and move into project folder.
-2. Run `npm install`.
-3. Run `npm run dev` (default: http://localhost:5173).
-4. Start backend service at `http://localhost:8080/api`.
 
-## Structure Code
-src/
- ├── components/
- ├── pages/
- ├── services/   // API call
- ├── hooks/      // custom hooks
- ├── contexts/
+# Clone repository
+git clone https://github.com/tiendat2k3dev/quan-ly-nguoi-dung-frontend-v1.git
+
+# Enter project folder
+cd quan-ly-nguoi-dung-frontend-v1
+
+# Install dependencies
+npm install
+
+# Start development server
+npm run dev
+
+### Environment Variables
+
+Create a `.env` file in the project root:
+
+VITE_API_BASE_URL=http://localhost:5000/api
+
+### Build for Production
+
+npm run build
+
+## Project Structure
+
+quan-ly-nguoi-dung-frontend-v1/
+├── .env                     # Environment variables
+├── package.json
+├── README.md
+├── public/
+└── src/
+    ├── assets/             # Images, icons, static files
+    ├── components/         # Reusable UI components
+    ├── pages/              # Main application pages
+    ├── services/           # API calls (auth, account, department)
+    ├── hooks/              # Custom hooks (useAuth)
+    ├── contexts/           # Global state / AuthContext
+    ├── utils/              # Helper functions
+    ├── layouts/            # Header / Sidebar layouts
+    ├── App.jsx
+    └── main.jsx
+
  ├── utils/
  ├── layouts/
