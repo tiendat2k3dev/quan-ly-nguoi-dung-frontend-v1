@@ -60,24 +60,11 @@ A production-style React web application for managing users and departments with
 4. Start backend service at `http://localhost:8080/api`.
 
 ## Structure Code
-```text
 src/
-  assets/
-    images/
-  components/
-    common/
-    layout/
-  context/
-    AuthContext.jsx
-  pages/
-    auth/
-    dashboard/
-    account/
-    department/
-  routes/
-    ProtectedRoute.jsx
-  services/
-    api/
-  utils/
-```
-
+ ├── components/
+ ├── pages/
+ ├── services/   // API call
+ ├── hooks/      // custom hooks
+ ├── contexts/
+ ├── utils/
+ ├── layouts/
