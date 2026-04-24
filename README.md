@@ -76,26 +76,23 @@ VITE_API_BASE_URL=http://localhost:8080/api
 npm run build
 
 ## Project Structure
+## Project Structure
 
+```bash
 quan-ly-nguoi-dung-frontend-v1/
-
 ├── .env                     # Environment variables
-
 ├── package.json
-
 ├── README.md
-
 ├── public/
-
 └── src/
-    
     ├── assets/             # Images, icons, static files
     ├── components/         # Reusable UI components
     ├── pages/              # Main application pages
-    ├── services/           # API calls (auth, account, department)
-    ├── hooks/              # Custom hooks (useAuth)
-    ├── contexts/           # Global state / AuthContext
+    ├── services/           # API calls
+    ├── hooks/              # Custom hooks
+    ├── contexts/           # AuthContext
     ├── utils/              # Helper functions
     ├── layouts/            # Header / Sidebar layouts
     ├── App.jsx
     └── main.jsx
+```
