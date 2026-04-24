@@ -94,5 +94,3 @@ quan-ly-nguoi-dung-frontend-v1/
     ├── App.jsx
     └── main.jsx
 
- ├── utils/
- ├── layouts/
