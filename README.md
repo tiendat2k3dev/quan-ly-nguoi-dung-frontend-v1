@@ -9,8 +9,11 @@ A production-style React web application for managing users and departments with
 
 ### Technical Highlights
 - **Multi-role RBAC** with role-based permissions and page access.
-- **AuthContext architecture** for centralized authentication state and token management.
+- **Global state management using Context API (`AuthContext`)** for centralized authentication state.
 - **Protected Routes** for secure route-level authorization.
+- **Reusable UI components** (`Table`, `Modal`, `Form`) for consistent and maintainable screens.
+- **Pagination & Filtering** for large user datasets and role/department-based querying.
+- **JWT Authentication** with secure token-based access.
 - **Silent token refresh** to maintain stable user sessions.
 - **Reusable UI and API patterns** for scalable CRUD workflows.
 
@@ -52,6 +55,11 @@ A production-style React web application for managing users and departments with
 - Implemented role-based route protection.
 - Integrated RESTful APIs using Axios.
 - Developed session persistence via automatic token refresh.
+
+## Challenges & Solutions
+- Managing authentication state across pages -> solved with Context API (`AuthContext`).
+- Handling protected routes by role -> implemented route guards for RBAC access control.
+- Avoiding duplicated UI logic -> built reusable components (`Table`, `Modal`, `Form`).
 
 ## Quick Setup
 
