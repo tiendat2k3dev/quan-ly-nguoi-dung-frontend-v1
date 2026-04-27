@@ -3,19 +3,9 @@
 ## Overview
 A production-style React web application for managing users and departments with a role-based system (Admin, Manager, Employee).
 
-### Demo
-- **Frontend**: https://quan-ly-nguoi-dung-frontend-v1.vercel.app
-- **Backend (local)**: http://localhost:8080/api
+### Live Demo
+https://quan-ly-nguoi-dung-frontend-v1.vercel.app
 
-### Technical Highlights
-- **Multi-role RBAC** with role-based permissions and page access.
-- **Global state management using Context API (`AuthContext`)** for centralized authentication state.
-- **Protected Routes** for secure route-level authorization.
-- **Reusable UI components** (`Table`, `Modal`, `Form`) for consistent and maintainable screens.
-- **Pagination & Filtering** for large user datasets and role/department-based querying.
-- **JWT Authentication** with secure token-based access.
-- **Silent token refresh** to maintain stable user sessions.
-- **Reusable UI and API patterns** for scalable CRUD workflows.
 
 ## Screenshots
 ### Login & Authentication
