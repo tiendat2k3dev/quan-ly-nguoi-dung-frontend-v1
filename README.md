@@ -47,9 +47,15 @@ https://quan-ly-nguoi-dung-frontend-v1.vercel.app
 - Developed session persistence via automatic token refresh.
 
 ## Challenges & Solutions
-- Managing authentication state across pages -> solved with Context API (`AuthContext`).
-- Handling protected routes by role -> implemented route guards for RBAC access control.
-- Avoiding duplicated UI logic -> built reusable components (`Table`, `Modal`, `Form`).
+
+- Managing authentication state across pages  
+  → Solved using Context API (`AuthContext`) for global state management  
+
+- Handling protected routes by role  
+  → Implemented route guards for RBAC access control  
+
+- Avoiding duplicated UI logic  
+  → Built reusable components (`Table`, `Modal`, `Form`)
 
 ## Installation
 
