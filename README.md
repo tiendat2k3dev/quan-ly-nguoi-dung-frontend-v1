@@ -13,7 +13,7 @@ https://quan-ly-nguoi-dung-frontend-v1.vercel.app
 ![Forgot Password](src/assets/images/quenmatkhau.png)
 ![Verification](src/assets/images/xacthucvadoimatkhau.png)
 
-### Dashboard & Core Management
+### Dashboard 
 ![Home](src/assets/images/home.png)
 ![Account Management](src/assets/images/account.png)
 ![Department Management](src/assets/images/department.png)
