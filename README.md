@@ -29,7 +29,7 @@ React Router (Protected Routes)
 Axios (REST API Integration)  
 Ant Design / Bootstrap  
 JWT Authentication  
-Vercel (Deployment & CI/CD)
+Vite Vercel (Deployment & CI/CD)
 
 ## Key Features
 - Authentication & Authorization (JWT)
