@@ -8,7 +8,7 @@ https://quan-ly-nguoi-dung-frontend-v1.vercel.app
 
 
 ## Screenshots
-### Login & Authentication
+### Login Page
 ![Login](src/assets/images/login.png)
 ![Forgot Password](src/assets/images/quenmatkhau.png)
 ![Verification](src/assets/images/xacthucvadoimatkhau.png)
