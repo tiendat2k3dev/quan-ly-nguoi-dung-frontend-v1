@@ -98,5 +98,5 @@ exam-prep-frontend/
 
 ## Related Repositories
 
-- Backend: https://github.com/tiendat2k3dev/exam-prep-backend  
-- Frontend (this repo): https://github.com/tiendat2k3dev/exam-prep-frontend
+- Backend: https://github.com/tiendat2k3dev/quan-ly-nguoi-dung-backend-v1  
+- Frontend (this repo): https://github.com/tiendat2k3dev/quan-ly-nguoi-dung-frontend-v1
