@@ -55,10 +55,10 @@ https://quan-ly-nguoi-dung-frontend-v1.vercel.app
 
 ```bash
 # Clone repository
-git clone https://github.com/tiendat2k3dev/exam-prep-frontend
+git clone https://github.com/tiendat2k3dev/quan-ly-nguoi-dung-frontend-v1.git
 
 # Enter project folder
-cd exam-prep-frontend
+cd quan-ly-nguoi-dung-frontend-v1
 
 # Install dependencies
 npm install
