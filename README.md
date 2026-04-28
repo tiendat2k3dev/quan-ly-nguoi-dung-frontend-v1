@@ -93,7 +93,7 @@ exam-prep-frontend/
 ```
 ## Notes
 
-- This project is part of a team of 7 members  
+- This project is a personal project.  
 - My main responsibility: Frontend development & integration
 
 ## Related Repositories
