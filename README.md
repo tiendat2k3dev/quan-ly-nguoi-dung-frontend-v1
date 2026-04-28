@@ -24,11 +24,12 @@ https://quan-ly-nguoi-dung-frontend-v1.vercel.app
 ![404 Page](src/assets/images/404.png)
 
 ## Tech Stack
-- ReactJS (Hooks, Context API)
-- React Router
-- Axios
-- Ant Design / Bootstrap
-- JWT Authentication
+ReactJS (Hooks, Context API)
+React Router (Protected Routes)
+Axios (REST API Integration)
+Ant Design / Bootstrap
+JWT Authentication
+Vercel (Deployment & CI/CD)
 
 ## Key Features
 - Authentication & Authorization (JWT)
