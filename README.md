@@ -51,40 +51,30 @@ https://quan-ly-nguoi-dung-frontend-v1.vercel.app
 - Handling protected routes by role -> implemented route guards for RBAC access control.
 - Avoiding duplicated UI logic -> built reusable components (`Table`, `Modal`, `Form`).
 
-## Quick Setup
+## Installation
 
 ```bash
 # Clone repository
-git clone https://github.com/tiendat2k3dev/quan-ly-nguoi-dung-frontend-v1.git
+git clone https://github.com/tiendat2k3dev/exam-prep-frontend
 
 # Enter project folder
-cd quan-ly-nguoi-dung-frontend-v1
+cd exam-prep-frontend
 
 # Install dependencies
 npm install
-
-# Start development server
-npm run dev
-```
-
 ### Environment Variables
 
 Create a `.env` file in the project root:
 
-```env
+``` .env
 VITE_API_BASE_URL=http://localhost:8080/api
-```
 
-### Build for Production
-
-```bash
-npm run build
+npm run dev
 ```
 
 ## Project Structure
-
 ```text
-quan-ly-nguoi-dung-frontend-v1/
+exam-prep-frontend/
 ├── .env                     # Environment variables
 ├── package.json
 ├── README.md
@@ -93,16 +83,20 @@ quan-ly-nguoi-dung-frontend-v1/
     ├── assets/             # Images, icons, static files
     ├── components/         # Reusable UI components
     ├── pages/              # Main application pages
-    ├── services/           # API calls (auth, account, department)
-    ├── hooks/              # Custom hooks (useAuth)
-    ├── contexts/           # Global state / AuthContext
-    ├── utils/              # Helper functions
+    ├── services/           # API calls
+    ├── hooks/              # Custom hooks
+    ├── context/            # Global state / AuthContext
+    ├── route/              # Route-level guards and navigation flow
     ├── layouts/            # Header / Sidebar layouts
     ├── App.jsx
     └── main.jsx
 ```
+## Notes
 
-## GitHub Profile Optimization
-- **Suggested bio**: `Frontend Developer | ReactJS | Building scalable UI`
-- **Recommended pinned repositories**:
-  - `quan-ly-nguoi-dung-frontend-v1`
+- This project is part of a team of 7 members  
+- My main responsibility: Frontend development & integration
+
+## Related Repositories
+
+- Backend: https://github.com/tiendat2k3dev/exam-prep-backend  
+- Frontend (this repo): https://github.com/tiendat2k3dev/exam-prep-frontend
